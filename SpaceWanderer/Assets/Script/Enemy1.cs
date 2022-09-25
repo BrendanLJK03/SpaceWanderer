@@ -7,6 +7,7 @@ public class Enemy1 : MonoBehaviour
     public Transform character;
     public float speed;
     public bool vertical;
+    public string name;
     private Vector2 movement;
 
     private Rigidbody2D rb;
