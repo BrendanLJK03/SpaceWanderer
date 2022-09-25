@@ -1,0 +1,1212 @@
+fileFormatVersion: 2
+guid: 069ac5fe9640c6d4e86b0afce9364d8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4418868963186073084
+    second: OldTile_0
+  - first:
+      213: 4874391282635610439
+    second: OldTile_1
+  - first:
+      213: 6713400809992499163
+    second: OldTile_2
+  - first:
+      213: 1430856008605057870
+    second: OldTile_3
+  - first:
+      213: -6103381737406408739
+    second: OldTile_4
+  - first:
+      213: 3147493482868828396
+    second: OldTile_5
+  - first:
+      213: 6408557883781734170
+    second: OldTile_6
+  - first:
+      213: 6140435909465145877
+    second: OldTile_7
+  - first:
+      213: 4765161275804229290
+    second: OldTile_8
+  - first:
+      213: -163694285087133043
+    second: OldTile_9
+  - first:
+      213: 4710806369638042056
+    second: OldTile_10
+  - first:
+      213: -3303317230657505871
+    second: OldTile_11
+  - first:
+      213: -6003558188210459393
+    second: OldTile_12
+  - first:
+      213: -5587922994852595832
+    second: OldTile_13
+  - first:
+      213: 2681079584453924209
+    second: OldTile_14
+  - first:
+      213: -8664961522189541360
+    second: OldTile_15
+  - first:
+      213: 4236249358373988626
+    second: OldTile_16
+  - first:
+      213: 2639766701382088584
+    second: OldTile_17
+  - first:
+      213: -2915535413222498741
+    second: OldTile_18
+  - first:
+      213: -7054492817700307710
+    second: OldTile_19
+  - first:
+      213: 2328646045997749906
+    second: OldTile_20
+  - first:
+      213: -1550088158173520511
+    second: OldTile_21
+  - first:
+      213: -1805852813148263538
+    second: OldTile_22
+  - first:
+      213: -4995348987432083027
+    second: OldTile_23
+  - first:
+      213: 8486042448511377434
+    second: OldTile_24
+  - first:
+      213: -6018313769415000496
+    second: OldTile_25
+  - first:
+      213: -5442453681803807300
+    second: OldTile_26
+  - first:
+      213: 2669334717071540657
+    second: OldTile_27
+  - first:
+      213: 1489256136733334997
+    second: OldTile_28
+  - first:
+      213: 4169978797883327281
+    second: OldTile_29
+  - first:
+      213: -398767840549185996
+    second: OldTile_30
+  - first:
+      213: -1955604126949436578
+    second: OldTile_31
+  - first:
+      213: -8491305131161573745
+    second: OldTile_32
+  - first:
+      213: -7610148618525567028
+    second: OldTile_33
+  - first:
+      213: -4934824311749146102
+    second: OldTile_34
+  - first:
+      213: 7791987565778593919
+    second: OldTile_35
+  - first:
+      213: -195787330023527032
+    second: OldTile_36
+  - first:
+      213: -6515276711131105270
+    second: OldTile_37
+  - first:
+      213: 1873728640818843758
+    second: OldTile_38
+  - first:
+      213: 3188352877764220112
+    second: OldTile_41
+  - first:
+      213: -5692720573941139212
+    second: OldTile_42
+  - first:
+      213: 419801175760098310
+    second: OldTile_43
+  - first:
+      213: -7451900102599588351
+    second: OldTile_44
+  - first:
+      213: -3370881058545561713
+    second: OldTile_45
+  - first:
+      213: 7350174187841323124
+    second: OldTile_46
+  - first:
+      213: -143541188218756714
+    second: OldTile_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OldTile_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ab4417160da2c0800000000000000
+      internalID: -4418868963186073084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74991c1cb0155a340800000000000000
+      internalID: 4874391282635610439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf2c62b77aca2d50800000000000000
+      internalID: 6713400809992499163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4343a575fb6bd310800000000000000
+      internalID: 1430856008605057870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7d84d95ae6c4ba0800000000000000
+      internalID: -6103381737406408739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_5
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 936
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e04385a42eab20800000000000000
+      internalID: 3147493482868828396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_6
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd659f075cfe850800000000000000
+      internalID: 6408557883781734170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51209bd1de5373550800000000000000
+      internalID: 6140435909465145877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_8
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 934
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae12c5fee0412240800000000000000
+      internalID: 4765161275804229290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_9
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 934
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82be9d3ae07abdf0800000000000000
+      internalID: -163694285087133043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_10
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 934
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c94ceb2f65206140800000000000000
+      internalID: 4710806369638042056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 804
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b57b3efa724822d0800000000000000
+      internalID: -3303317230657505871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 804
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce353d2a31faca0800000000000000
+      internalID: -6003558188210459393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 804
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887f29b64a5b372b0800000000000000
+      internalID: -5587922994852595832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_14
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 805
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1759de55dab153520800000000000000
+      internalID: 2681079584453924209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 805
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010e67d876fdfb780800000000000000
+      internalID: -8664961522189541360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 803
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219abd9c85e2aca30800000000000000
+      internalID: 4236249358373988626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 803
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b8cd24d552a420800000000000000
+      internalID: 2639766701382088584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_18
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 803
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e1dc42dffe987d0800000000000000
+      internalID: -2915535413222498741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_19
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 802
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dbd6a9828691e90800000000000000
+      internalID: -7054492817700307710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_20
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 802
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296505bbd33015020800000000000000
+      internalID: 2328646045997749906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_21
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 802
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1789680bfc7ae0800000000000000
+      internalID: -1550088158173520511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b68ab2f6250f6e0800000000000000
+      internalID: -1805852813148263538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e00bff84fcaab0800000000000000
+      internalID: -4995348987432083027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_24
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 672
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10286c55aa74c570800000000000000
+      internalID: 8486042448511377434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 658
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3d2b5387aa7ca0800000000000000
+      internalID: -6018313769415000496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_26
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 658
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5319536358874b0800000000000000
+      internalID: -5442453681803807300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1caad48c16b0520800000000000000
+      internalID: 2669334717071540657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_28
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd9f81e096eaa410800000000000000
+      internalID: 1489256136733334997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_29
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1330fb88f9dbed930800000000000000
+      internalID: 4169978797883327281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436573403ca477af0800000000000000
+      internalID: -398767840549185996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_31
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5314e3686c4cd4e0800000000000000
+      internalID: -1955604126949436578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_32
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86a9a9d8f2d82a80800000000000000
+      internalID: -8491305131161573745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc79ad8d622536690800000000000000
+      internalID: -7610148618525567028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_34
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0b3d2f6bf38bb0800000000000000
+      internalID: -4934824311749146102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_35
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 525
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f786e784863b22c60800000000000000
+      internalID: 7791987565778593919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_36
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 525
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dec6ee57c684df0800000000000000
+      internalID: -195787330023527032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b7a3c9561595a0800000000000000
+      internalID: -6515276711131105270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_38
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 394
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e609b797542d00a10800000000000000
+      internalID: 1873728640818843758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_41
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 164
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d41bb9bc0e4f3c20800000000000000
+      internalID: 3188352877764220112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 164
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f83ea0acc46ff0b0800000000000000
+      internalID: -5692720573941139212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_43
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 164
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d875f1fe63d500800000000000000
+      internalID: 419801175760098310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_44
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 164
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106cadaa658859890800000000000000
+      internalID: -7451900102599588351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_45
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f8c4579893831d0800000000000000
+      internalID: -3370881058545561713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_46
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470078f1b70110660800000000000000
+      internalID: 7350174187841323124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldTile_47
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6916591cc0a020ef0800000000000000
+      internalID: -143541188218756714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
