@@ -201,8 +201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816fc3ea12321ac45b48cca8936327a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
-  currentHealth: 0
+  maxHealth: 8
+  currentHealth: 8
+  movementSpeed: 5
   projectilePrefab: {fileID: 3964249246286184002, guid: 56fb0d0dacf036e458ff5ff552a54e25, type: 3}
   projectileSound: {fileID: 8300000, guid: a19abe8d2d5903e47a1079d9a64150ab, type: 3}
   HPBar: {fileID: 0}

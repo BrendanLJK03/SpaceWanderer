@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     public int currentHealth;
 
     Rigidbody2D rigidbody2D;
-    float horizontal;
-    float vertical;
+    private Vector2 move;
+    [SerializeField] private float movementSpeed = 2f;
 
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
@@ -32,10 +32,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
 
-        Vector2 move = new Vector2(horizontal, vertical);
+        move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         if(Mathf.Approximately(move.x,0.0f)|| !Mathf.Approximately(move.y,0.0f))
         {
@@ -46,16 +44,16 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
-
-        Vector2 position = transform.position;
-        position.x = position.x + 6.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 6.0f * vertical * Time.deltaTime;
-        transform.position = position;
         
         if(Input.GetKeyDown(KeyCode.C))
         {
             Launch();   
         }
+    }
+
+    void FixedUpdate()
+    {
+        rigidbody2D.velocity = move * movementSpeed;
     }
 
     public void ChangeHealth(int amount)
