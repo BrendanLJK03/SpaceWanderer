@@ -62664,6 +62664,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 203196115}
+    - target: {fileID: 2063317958569699613, guid: 83331e0b2710ab340addccaa737e0a47, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4020447150399160868, guid: 83331e0b2710ab340addccaa737e0a47, type: 3}
       propertyPath: m_Name
       value: Enemy1
@@ -62714,6 +62718,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698682243688375317, guid: 83331e0b2710ab340addccaa737e0a47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883415649108639438, guid: 83331e0b2710ab340addccaa737e0a47, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

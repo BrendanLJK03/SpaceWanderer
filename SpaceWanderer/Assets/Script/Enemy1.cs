@@ -13,6 +13,8 @@ public class Enemy1 : MonoBehaviour
     private Rigidbody2D rb;
     Animator animator;
     public AudioClip EnemyDieSound;
+    
+    Vector2 lookDirection = new Vector2(1,0);
 
     public float waitTime;
 
@@ -26,9 +28,18 @@ public class Enemy1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = character.position - transform.position;
+        Vector2 direction = character.position - transform.position;
         direction.Normalize();
         movement = direction;
+
+        if(Mathf.Approximately(movement.x,0.0f)|| !Mathf.Approximately(movement.y,0.0f))
+        {
+            lookDirection.Set(movement.x, movement.y);
+            lookDirection.Normalize();
+        }
+
+        animator.SetFloat("Look X", lookDirection.x);
+        animator.SetFloat("Look Y", lookDirection.y);
     }
     private void FixedUpdate() 
     {

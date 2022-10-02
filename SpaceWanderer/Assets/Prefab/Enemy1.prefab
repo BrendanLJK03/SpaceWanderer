@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4698682243688375317}
   - component: {fileID: 8297707407565233038}
+  - component: {fileID: 746250127931891980}
   - component: {fileID: 4883415649108639438}
   - component: {fileID: 2063317958569699613}
   - component: {fileID: 1710020806036225732}
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4883415649108639438
+--- !u!114 &746250127931891980
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,10 +97,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 4020447150399160868}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e106c47180c2f02479eb01ca79f5cc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  checkRadius: 5
+  attackRadius: 5
+  shouldRotate: 0
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  dir: {x: 0, y: 0, z: 0}
+--- !u!114 &4883415649108639438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020447150399160868}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0073ad3567765f4a98e4194df5c458c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   vertical: 1
   changeTime: 3
   EnemyDieSound: {fileID: 8300000, guid: e28846cd3637e1247bdcda23a0244bed, type: 3}
