@@ -167,5 +167,5 @@ MonoBehaviour:
   speed: 1
   vertical: 0
   changeTime: 3
-  EnemyDieSound: {fileID: 8300000, guid: b40bf77cedb8aef4b8f7f3ecf49486f5, type: 3}
+  EnemyDieSound: {fileID: 8300000, guid: c0d5ae06f7510a64e9dbab74327ab01a, type: 3}
   waitTime: 2
