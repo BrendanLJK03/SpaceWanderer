@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BossAI : MonoBehaviour
+public class Boss : MonoBehaviour
 {
-    public int health;
-    public int MaxHealth;
+    [SerializeField] float health, maxHealth = 10f;
+    public int damage;
 
     Rigidbody2D rb;
     Animator anim;
@@ -16,7 +16,7 @@ public class BossAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = MaxHealth;
+        health = maxHealth;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -27,9 +27,13 @@ public class BossAI : MonoBehaviour
         
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage()
     {
-        health = Mathf.Clamp(health + amount, 0, MaxHealth);
-        BossHP.fillAmount = (float)health / (float)MaxHealth;
+        health -= damage;
+
+        if(health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
