@@ -664,9 +664,9 @@ TextureImporter:
       name: NewTile2_22
       rect:
         serializedVersion: 2
-        x: 293
+        x: 302
         y: 532
-        width: 207
+        width: 105
         height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -685,9 +685,9 @@ TextureImporter:
       name: NewTile2_23
       rect:
         serializedVersion: 2
-        x: 18
+        x: 35
         y: 387
-        width: 102
+        width: 85
         height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -706,9 +706,9 @@ TextureImporter:
       name: NewTile2_24
       rect:
         serializedVersion: 2
-        x: 137
+        x: 172
         y: 386
-        width: 141
+        width: 106
         height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
