@@ -6,7 +6,6 @@ public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2D;
     Animator anim;
-    public bool isFrozen;
 
     void Awake ()
     {
@@ -36,8 +35,7 @@ public class Projectile : MonoBehaviour
     {
         EnemyController e = other.GetComponent<EnemyController>();
         EnemyAI e2 = other.GetComponent<EnemyAI>();
-        anim = other.GetComponent<Animator>();
-        anim.Play("Froze");
+        BossAI b = GetComponent<BossAI>();
 
         if(e!=null)
         {
@@ -52,5 +50,12 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
         yield return null;
         }
+
+        if(b!=null)
+        {
+            b.TakeDamage();
+            Destroy(gameObject);
+        }
     }
+    
 }

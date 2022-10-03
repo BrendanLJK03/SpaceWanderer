@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 80190645163030904}
   - component: {fileID: 80190645163030919}
   - component: {fileID: 80190645163030917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -97,9 +97,9 @@ GameObject:
   - component: {fileID: 80190645404780335}
   - component: {fileID: 80190645404780334}
   - component: {fileID: 80190645404780333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
