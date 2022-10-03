@@ -9,7 +9,6 @@ public class DamageController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -20,6 +19,7 @@ public class DamageController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        EnemyAI e2 = other.GetComponent<EnemyAI>();
         PlayerController controller = other.GetComponent<PlayerController>();
         if(controller != null)
         {

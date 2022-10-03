@@ -75780,6 +75780,10 @@ PrefabInstance:
       propertyPath: rigidbody2D
       value: 
       objectReference: {fileID: 953931897}
+    - target: {fileID: 80190645404780335, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}
+      propertyPath: movementSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}

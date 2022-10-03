@@ -5,6 +5,8 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2D;
+    Animator anim;
+    public bool isFrozen;
 
     void Awake ()
     {
@@ -34,6 +36,8 @@ public class Projectile : MonoBehaviour
     {
         EnemyController e = other.GetComponent<EnemyController>();
         EnemyAI e2 = other.GetComponent<EnemyAI>();
+        anim = other.GetComponent<Animator>();
+        anim.Play("Froze");
 
         if(e!=null)
         {
@@ -44,7 +48,7 @@ public class Projectile : MonoBehaviour
 
         else if(e2!=null)
         {
-        e2. freezeEnemy();
+        e2. Freeze();
         Destroy(gameObject);
         yield return null;
         }
