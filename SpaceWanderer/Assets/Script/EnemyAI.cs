@@ -9,6 +9,7 @@ public class EnemyAI : MonoBehaviour
     public float attackRadius;
 
     public bool shouldRotate;
+    private bool isFrozen;
 
     public LayerMask whatIsPlayer;
 
@@ -35,6 +36,7 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        anim.SetBool("isFrozen", isFrozen);
         anim.SetBool("isRunning", isInChaseRange);
 
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);
@@ -80,15 +82,19 @@ public class EnemyAI : MonoBehaviour
 
     public IEnumerator unfreeze()
         {  
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(waitTime);
             rb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
             anim.GetComponent<Animator>().enabled = true;
+            isFrozen = false;
+            isInChaseRange = true;
         }
 
     public void freezeEnemy()
         {
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
             anim.GetComponent<Animator>().enabled = false;
+            isInChaseRange = false;
+            isFrozen = true;
             StartCoroutine(unfreeze());
             AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
         }
