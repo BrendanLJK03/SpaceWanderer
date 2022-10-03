@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;     //3,0f is 3 seconds, means enemy will walk to left 3 secs/ to the right 3 secs
 
 
-    Rigidbody2D rigidbody2D;
+    Rigidbody2D rb;
     float timer;
     int direction = 1;
 
@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
     }
@@ -40,7 +40,7 @@ public class EnemyController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 position = rigidbody2D.position;
+        Vector2 position = GetComponent<Rigidbody2D>().position;
 
         if(vertical)
         {
@@ -54,7 +54,7 @@ public class EnemyController : MonoBehaviour
             animator.SetFloat("Move X", direction);
             animator.SetFloat("Move Y", 0);
         }
-        rigidbody2D.MovePosition(position);
+        GetComponent<Rigidbody2D>().MovePosition(position);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -75,13 +75,13 @@ public class EnemyController : MonoBehaviour
     public IEnumerator unfreeze()
     {  
         yield return new WaitForSeconds(2);
-        rigidbody2D.constraints = RigidbodyConstraints2D.None;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         animator.GetComponent<Animator>().enabled = true;
     }
 
     public void freezeEnemy()
     {
-        rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         animator.GetComponent<Animator>().enabled = false;
         StartCoroutine(unfreeze());
         AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
