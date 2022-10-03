@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4723107735738678597, guid: a68b8303b59358a4fbde8c4428012de6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,12 +102,13 @@ MonoBehaviour:
   speed: 2
   checkRadius: 4
   attackRadius: 0.45
+  Damage: -1
   shouldRotate: 1
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
   dir: {x: 0, y: 0, z: 0}
-  EnemyDieSound: {fileID: 8300000, guid: e28846cd3637e1247bdcda23a0244bed, type: 3}
+  EnemyFreezeSound: {fileID: 8300000, guid: e28846cd3637e1247bdcda23a0244bed, type: 3}
   waitTime: 8
 --- !u!50 &1710020806036225732
 Rigidbody2D:

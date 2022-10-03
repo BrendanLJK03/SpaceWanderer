@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
     public float speed;
     public float checkRadius;
     public float attackRadius;
+    public int Damage;
 
     public bool shouldRotate;
 
@@ -21,15 +22,16 @@ public class EnemyAI : MonoBehaviour
     private bool isInChaseRange;
     private bool isInAttackRange;
 
-    public AudioClip EnemyDieSound;
+    public AudioClip EnemyFreezeSound;
     public float waitTime;
 
     // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        
     }
 
     // Update is called once per frame
@@ -66,9 +68,16 @@ public class EnemyAI : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController controller = other.GetComponent<PlayerController>();
-        if(controller != null)
+
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("Freeze") && controller != null)
         {
-            controller.ChangeHealth(-1); //when player touch on the enemy, health will -1
+            controller.ChangeHealth(0); //when player touch on the enemy, health will -1
+            Debug.Log("Not");
+        }
+
+        else
+        {
+            controller.ChangeHealth(Damage);
         }
 
 
@@ -81,19 +90,26 @@ public class EnemyAI : MonoBehaviour
         }
 
     public IEnumerator unfreeze()
-        {  
+        { 
             yield return new WaitForSeconds(waitTime);
             anim.ResetTrigger("Freeze");
             anim.SetTrigger("Unfreeze");
+            anim.GetComponent<Animator>().enabled = true;
             rb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
         }
 
     public void Freeze()
         {
             anim.SetTrigger("Freeze");
+            if(anim.GetCurrentAnimatorStateInfo(0).IsName("Freeze"))
+            {
+                anim.GetComponent<Animator>().enabled = false;
+            }
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+            
             StartCoroutine(unfreeze());
-            AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(EnemyFreezeSound, Camera.main.transform.position);
+            
+            
         }
 }
-
