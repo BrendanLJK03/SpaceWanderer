@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour
     IEnumerator OnTriggerEnter2D(Collider2D other)
     {
         EnemyController e = other.GetComponent<EnemyController>();
-        Enemy1 e2 = other.GetComponent<Enemy1>();
+        EnemyAI e2 = other.GetComponent<EnemyAI>();
 
         if(e!=null)
         {

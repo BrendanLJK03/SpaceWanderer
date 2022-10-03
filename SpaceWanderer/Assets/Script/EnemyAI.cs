@@ -21,6 +21,9 @@ public class EnemyAI : MonoBehaviour
     private bool isInChaseRange;
     private bool isInAttackRange;
 
+    public AudioClip EnemyDieSound;
+    public float waitTime;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -40,7 +43,7 @@ public class EnemyAI : MonoBehaviour
         dir = target.position - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         dir.Normalize();
-        movement=dir;
+        movement = dir;
         if(shouldRotate)
         {
             anim.SetFloat("Move X", dir.x);
@@ -59,10 +62,35 @@ public class EnemyAI : MonoBehaviour
                 rb.velocity = Vector2.zero;
             }
         }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        PlayerController controller = other.GetComponent<PlayerController>();
+        if(controller != null)
+        {
+            controller.ChangeHealth(-1); //when player touch on the enemy, health will -1
+        }
+    }
 
     
     private void MoveCharacter(Vector2 dir)
         {
             rb.MovePosition((Vector2)transform.position + (dir * speed * Time.deltaTime));
         }
+
+    public IEnumerator unfreeze()
+        {  
+            yield return new WaitForSeconds(2);
+            rb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+            anim.GetComponent<Animator>().enabled = true;
+        }
+
+    public void freezeEnemy()
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+            anim.GetComponent<Animator>().enabled = false;
+            StartCoroutine(unfreeze());
+            AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
+        }
 }
+
