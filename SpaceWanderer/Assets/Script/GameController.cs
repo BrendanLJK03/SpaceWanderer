@@ -20,9 +20,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        BlockNPC n = gameObject.GetComponent<BlockNPC>();
+
         if(meteorite <= 0)
         {
             destroyedAll = true;
+            n. MissionComplete();
         }
         else
         {

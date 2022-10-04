@@ -26,9 +26,10 @@ public class Meteor : MonoBehaviour
             inteButton.SetActive(true);
             if(Input.GetKeyDown(KeyCode.X) && inteButton.activeInHierarchy)
             {
+                gc.meteorite--;
                 Destroy(gameObject);
                 inteButton.SetActive(false);
-                gc.meteorite--;
+                
             }
         }
     }

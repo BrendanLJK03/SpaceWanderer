@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadNextLevel : MonoBehaviour
 {
-    public string LevelName;  //this is to insert level
+    bool isTouch;
+    public Animator anim;
+    public int levelToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,14 +17,31 @@ public class LoadNextLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.X))
+        {
+            if(isTouch == true)
+            {
+                FadeToLevel(levelToLoad);
+            }
+        }
     }
 
-    private void OnTriggerEnter2D (Collider2D other)
+    public void FadeToLevel (int levelIndex)
+    {
+        levelToLoad = levelIndex;
+        anim.SetTrigger("FadeOut");
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            Application.LoadLevel(LevelName); //this is to load the level
+            isTouch = true;
         }
+    }
+
+    public void OnFadeComplete()
+    {
+        SceneManager.LoadScene(levelToLoad);
     }
 }

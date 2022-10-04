@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3555467826412797777}
   - component: {fileID: 5925001632725194014}
   - component: {fileID: 8634664018430452979}
+  - component: {fileID: 2830503696063097621}
   m_Layer: 0
   m_Name: health potion
   m_TagString: Untagged
@@ -93,7 +94,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -107,5 +108,18 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 1.11}
+  m_Size: {x: 1.3046098, y: 1.6090188}
   m_EdgeRadius: 0
+--- !u!114 &2830503696063097621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144643742905759972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9728f5e82e5444540857deb6ab80a2fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HPSound: {fileID: 8300000, guid: b40bf77cedb8aef4b8f7f3ecf49486f5, type: 3}

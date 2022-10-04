@@ -231,6 +231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5375226144508682733, guid: beb34b7f972882f48bd09d757369de9c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6597981469504302970, guid: beb34b7f972882f48bd09d757369de9c, type: 3}
       propertyPath: m_Name
       value: magicball3 (1)
@@ -856,9 +860,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 96212298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: a071030034aae854ab571cc537ae3178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meteorite: 0
+  destroyedAll: 0
+  metoerLeftText: {fileID: 1050682420}
 --- !u!114 &96212300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1664,6 +1671,10 @@ PrefabInstance:
     - target: {fileID: 2063492568395052891, guid: 23ebd74249744e8459c3c45d24115683, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8136074996604305995, guid: 23ebd74249744e8459c3c45d24115683, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8836530709029961255, guid: 23ebd74249744e8459c3c45d24115683, type: 3}
       propertyPath: m_Name
@@ -2749,6 +2760,10 @@ PrefabInstance:
     - target: {fileID: 4214847512476971911, guid: beb34b7f972882f48bd09d757369de9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375226144508682733, guid: beb34b7f972882f48bd09d757369de9c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6597981469504302970, guid: beb34b7f972882f48bd09d757369de9c, type: 3}
       propertyPath: m_Name
@@ -4943,7 +4958,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.13999999, y: 0.13999999, z: 0}
   m_MaxChunkCount: 16
@@ -54353,6 +54368,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6123780060329810313, guid: dae41611877776d43978e07f925564e1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6436876910302861004, guid: dae41611877776d43978e07f925564e1, type: 3}
       propertyPath: m_Name
       value: magi cball (1)
@@ -57925,7 +57944,7 @@ PrefabInstance:
     - target: {fileID: 4136765254508214426, guid: e8433e77de782cf438fe48f345098d63, type: 3}
       propertyPath: BossHP
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 112437654}
     - target: {fileID: 4136765254508214426, guid: e8433e77de782cf438fe48f345098d63, type: 3}
       propertyPath: damage
       value: 1
@@ -57933,7 +57952,7 @@ PrefabInstance:
     - target: {fileID: 4136765254508214426, guid: e8433e77de782cf438fe48f345098d63, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1456355132}
     - target: {fileID: 4561585747637848706, guid: e8433e77de782cf438fe48f345098d63, type: 3}
       propertyPath: m_Name
       value: BossAI
@@ -60063,6 +60082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: meteorite1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7511799990598607642, guid: 309e5088113ae49498eec343cdd425aa, type: 3}
+      propertyPath: inteButton
+      value: 
+      objectReference: {fileID: 267120190}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309e5088113ae49498eec343cdd425aa, type: 3}
 --- !u!1001 &1433234100
@@ -60589,6 +60612,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8136074996604305995, guid: 23ebd74249744e8459c3c45d24115683, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8836530709029961255, guid: 23ebd74249744e8459c3c45d24115683, type: 3}
       propertyPath: m_Name
       value: mag i cbal  l1 (1)
@@ -60765,7 +60792,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 96118009060cf7b4c93500f38bb0d3f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -62256,6 +62283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6123780060329810313, guid: dae41611877776d43978e07f925564e1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6436876910302861004, guid: dae41611877776d43978e07f925564e1, type: 3}
       propertyPath: m_Name
       value: magi cball (3)
