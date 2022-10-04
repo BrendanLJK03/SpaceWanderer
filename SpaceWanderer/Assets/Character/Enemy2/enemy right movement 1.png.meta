@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: ac6bcf6e70ead364cb227d35dc6ae6b7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -581995084353980321
+    second: enemy right movement 1_0
+  - first:
+      213: 8243143133204489936
+    second: enemy right movement 1_1
+  - first:
+      213: -8196415560433913979
+    second: enemy right movement 1_2
+  - first:
+      213: -6902088572660490918
+    second: enemy right movement 1_3
+  - first:
+      213: -6903154423164939871
+    second: enemy right movement 1_4
+  - first:
+      213: -5919915386114833687
+    second: enemy right movement 1_5
+  - first:
+      213: -3790559012677361591
+    second: enemy right movement 1_6
+  - first:
+      213: -4895130172100766586
+    second: enemy right movement 1_7
+  - first:
+      213: -1631294856593971456
+    second: enemy right movement 1_8
+  - first:
+      213: -4454736375192093715
+    second: enemy right movement 1_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,9 +71,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -75,9 +105,126 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: enemy right movement 1_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 386
+        width: 457
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58be08ed865ce7f0800000000000000
+      internalID: -581995084353980321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy right movement 1_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 386
+        width: 475
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f2ad8697b704e80800000000000000
+      internalID: -8196415560433913979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy right movement 1_3
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 386
+        width: 485
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd942130bd630a0800000000000000
+      internalID: -6902088572660490918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy right movement 1_4
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 386
+        width: 477
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1569960a11330a0800000000000000
+      internalID: -6903154423164939871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy right movement 1_6
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 791
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940e53549aa356bc0800000000000000
+      internalID: -3790559012677361591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

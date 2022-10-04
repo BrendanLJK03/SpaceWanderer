@@ -72,7 +72,6 @@ public class EnemyAI : MonoBehaviour
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("Freeze") && controller != null)
         {
             controller.ChangeHealth(0); //when player touch on the enemy, health will -1
-            Debug.Log("Not");
         }
 
         else

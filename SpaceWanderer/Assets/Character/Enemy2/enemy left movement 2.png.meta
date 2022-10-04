@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 3490571ac7dcf4849ac8955b1aa61f0d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -856252457420172162
+    second: enemy left movement 2_0
+  - first:
+      213: -1350862716599668033
+    second: enemy left movement 2_1
+  - first:
+      213: -5335156895254174542
+    second: enemy left movement 2_2
+  - first:
+      213: -8548590104531365425
+    second: enemy left movement 2_3
+  - first:
+      213: 2021885384575776077
+    second: enemy left movement 2_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,9 +56,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -75,9 +90,105 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: enemy left movement 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 492
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745a653deafd14f0800000000000000
+      internalID: -856252457420172162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy left movement 2_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 371
+        width: 485
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b426651217b5f5b0800000000000000
+      internalID: -5335156895254174542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy left movement 2_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 362
+        width: 471
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc11df0a79e4d5980800000000000000
+      internalID: -8548590104531365425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy left movement 2_4
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 371
+        width: 467
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45713c7b0e2f0c10800000000000000
+      internalID: 2021885384575776077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
