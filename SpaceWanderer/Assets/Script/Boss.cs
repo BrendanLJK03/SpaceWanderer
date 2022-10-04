@@ -68,7 +68,7 @@ public class Boss : MonoBehaviour
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController controller = other.GetComponent<PlayerController>();
 
@@ -77,6 +77,7 @@ public class Boss : MonoBehaviour
             controller.ChangeHealth(0); //when player touch on the enemy, health will -1
         }
     }
+    
     private void MoveCharacter(Vector2 dir)
         {
             rb.MovePosition((Vector2)transform.position + (dir * speed * Time.deltaTime));

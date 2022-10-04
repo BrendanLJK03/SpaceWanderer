@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class BossAI : MonoBehaviour
 {
     public float speed;
     public float checkRadius;
     public float attackRadius;
-    public int Damage;
 
     public bool shouldRotate;
 
@@ -23,14 +22,24 @@ public class EnemyAI : MonoBehaviour
     private bool isInAttackRange;
 
     public AudioClip EnemyFreezeSound;
-    public float waitTime;
+
+    [SerializeField] float health, maxHealth = 10f;
+    public int damage;
+    float damageTime = 0.8f;
+    float currentDamageTime;
+    bool isDead = false;
+
+    public HPBar healthBar;
+    public GameObject BossHP;
 
     // Start is called before the first frame update
     private void Start()
     {
+        health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        healthBar.SetMaxHealth(maxHealth);
         
     }
 
@@ -58,28 +67,32 @@ public class EnemyAI : MonoBehaviour
             if(isInChaseRange && !isInAttackRange)
             {
                 MoveCharacter(movement);
+                BossHP.SetActive(true);
             }
             if(isInAttackRange)
             {
                 rb.velocity = Vector2.zero;
             }
+            if(!isInChaseRange)
+            {
+                BossHP.SetActive(false);
+            }
         }
     
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {
         PlayerController controller = other.GetComponent<PlayerController>();
 
-        if(anim.GetCurrentAnimatorStateInfo(0).IsName("Freeze") && controller != null)
+        if((controller != null) && (isDead == false))
         {
-            controller.ChangeHealth(0); //when player touch on the enemy, health will -1
+            currentDamageTime += Time.deltaTime;
+            if (currentDamageTime > damageTime)
+            {
+                controller.ChangeHealth(-1);
+                currentDamageTime = 0.0f;
+            }
         }
-
-        else
-        {
-            controller.ChangeHealth(Damage);
-        }
-
-
+        
     }
 
     
@@ -88,27 +101,17 @@ public class EnemyAI : MonoBehaviour
             rb.MovePosition((Vector2)transform.position + (dir * speed * Time.deltaTime));
         }
 
-    public IEnumerator unfreeze()
-        { 
-            yield return new WaitForSeconds(waitTime);
-            anim.ResetTrigger("Freeze");
-            anim.SetTrigger("Unfreeze");
-            anim.GetComponent<Animator>().enabled = true;
-            rb.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
-        }
+    public void TakeDamage()
+    {
+        health -= damage;
+        healthBar.SetHealth(health);
 
-    public void Freeze()
+        if(health <= 0)
         {
-            anim.SetTrigger("Freeze");
-            if(anim.GetCurrentAnimatorStateInfo(0).IsName("Freeze"))
-            {
-                anim.GetComponent<Animator>().enabled = false;
-            }
+            anim.SetBool("isDead", true);
+            isDead = true;
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
-            
-            StartCoroutine(unfreeze());
-            AudioSource.PlayClipAtPoint(EnemyFreezeSound, Camera.main.transform.position);
-            
-            
         }
+        
+    }
 }

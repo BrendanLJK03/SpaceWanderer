@@ -84119,7 +84119,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743913773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c4a17a181d6ebf4a958a0a7a0c010a0, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1743913775
@@ -92228,17 +92228,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 773239464}
     - target: {fileID: 80190645404780335, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 80190645404780335, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}
       propertyPath: rigidbody2D
       value: 
       objectReference: {fileID: 953931897}
-    - target: {fileID: 80190645404780335, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}
-      propertyPath: movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f80a247f4353f4a46bfc6cf0a065d2eb, type: 3}

@@ -35,7 +35,7 @@ public class Projectile : MonoBehaviour
     {
         EnemyController e = other.GetComponent<EnemyController>();
         EnemyAI e2 = other.GetComponent<EnemyAI>();
-        Boss b = other.GetComponent<Boss>();
+        BossAI b = other.GetComponent<BossAI>();
 
         if(e!=null)
         {

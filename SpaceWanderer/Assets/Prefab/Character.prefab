@@ -203,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 8
   currentHealth: 8
-  movementSpeed: 5
+  movementSpeed: 10
   projectilePrefab: {fileID: 3964249246286184002, guid: 56fb0d0dacf036e458ff5ff552a54e25, type: 3}
   projectileSound: {fileID: 8300000, guid: a19abe8d2d5903e47a1079d9a64150ab, type: 3}
   HPBar: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4561585747637848712}
   - component: {fileID: 4561585747637848711}
   - component: {fileID: 963540452370751527}
-  - component: {fileID: 871743585038981794}
+  - component: {fileID: 4136765254508214426}
   - component: {fileID: 5082539391869348364}
   m_Layer: 0
   m_Name: BossSpreadSheet_0
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 0}
---- !u!114 &871743585038981794
+--- !u!114 &4136765254508214426
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,20 +176,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 4561585747637848706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b37aeeff010db8d47805f3db74c6be26, type: 3}
+  m_Script: {fileID: 11500000, guid: a46297aa7bcc45547a652f6fc3edc12a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 80
+  speed: 4
   checkRadius: 8
   attackRadius: 0.45
+  Damage: 1
   shouldRotate: 1
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  dir: {x: 0, y: 0, z: 0}
-  health: 4
+  EnemyFreezeSound: {fileID: 8300000, guid: e28846cd3637e1247bdcda23a0244bed, type: 3}
+  health: 0
   maxHealth: 10
-  damage: 1
+  damageTaken: 1
   healthBar: {fileID: 0}
 --- !u!58 &5082539391869348364
 CircleCollider2D:
