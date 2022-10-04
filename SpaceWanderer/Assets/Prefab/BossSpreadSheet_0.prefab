@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4561585747637848709}
   - component: {fileID: 4561585747637848712}
   - component: {fileID: 4561585747637848711}
-  - component: {fileID: 4561585747637848710}
   m_Layer: 0
   m_Name: BossSpreadSheet_0
   m_TagString: Enemy
@@ -152,20 +151,3 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &4561585747637848710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4561585747637848706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0073ad3567765f4a98e4194df5c458c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  vertical: 0
-  changeTime: 3
-  EnemyDieSound: {fileID: 8300000, guid: e28846cd3637e1247bdcda23a0244bed, type: 3}
-  waitTime: 2

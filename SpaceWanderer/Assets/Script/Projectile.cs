@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    Rigidbody2D rigidbody2D;
+    Rigidbody2D rb;
     Animator anim;
-    public bool isFrozen;
 
     void Awake ()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
     // Start is called before the first frame update
     void Start()
@@ -29,15 +28,14 @@ public class Projectile : MonoBehaviour
 
     public void Launch(Vector2 direction, float force)
     {
-        rigidbody2D.AddForce(direction * force);
+        rb.AddForce(direction * force);
     }
 
     IEnumerator OnTriggerEnter2D(Collider2D other)
     {
         EnemyController e = other.GetComponent<EnemyController>();
         EnemyAI e2 = other.GetComponent<EnemyAI>();
-        anim = other.GetComponent<Animator>();
-        anim.Play("Froze");
+        Boss b = other.GetComponent<Boss>();
 
         if(e!=null)
         {
@@ -52,5 +50,13 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
         yield return null;
         }
+
+        else if(b!=null)
+        {
+            b.TakeDamage();
+            Destroy(gameObject);
+            yield return null;
+        }
     }
+    
 }
