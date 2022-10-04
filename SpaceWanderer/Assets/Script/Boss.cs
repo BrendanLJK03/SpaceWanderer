@@ -35,5 +35,6 @@ public class Boss : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 }

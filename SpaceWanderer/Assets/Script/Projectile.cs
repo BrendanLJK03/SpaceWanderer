@@ -35,6 +35,7 @@ public class Projectile : MonoBehaviour
     {
         EnemyController e = other.GetComponent<EnemyController>();
         EnemyAI e2 = other.GetComponent<EnemyAI>();
+        Boss b = other.GetComponent<Boss>();
 
         if(e!=null)
         {
@@ -48,6 +49,13 @@ public class Projectile : MonoBehaviour
         e2. Freeze();
         Destroy(gameObject);
         yield return null;
+        }
+
+        else if(b!=null)
+        {
+            b.TakeDamage();
+            Destroy(gameObject);
+            yield return null;
         }
     }
     
