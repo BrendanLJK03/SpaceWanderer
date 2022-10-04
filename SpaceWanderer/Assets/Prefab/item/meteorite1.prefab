@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9002682568491333205}
   - component: {fileID: -833497419596439656}
   - component: {fileID: 824534031597003675}
+  - component: {fileID: 7511799990598607642}
   m_Layer: 0
   m_Name: meteorite1
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1127504595931934803, guid: 95541717c85134541a25797329bea400, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -136,3 +137,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.48, y: 3.71}
   m_EdgeRadius: 0
+--- !u!114 &7511799990598607642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6008113536983927509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0476947f5e65e65489b2c0112163d86c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inteButton: {fileID: 0}
