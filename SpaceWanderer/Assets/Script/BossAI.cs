@@ -33,6 +33,7 @@ public class BossAI : MonoBehaviour
     public HPBar healthBar;
     public GameObject BossHP;
     public GameController GameController;
+    public AudioClip BossAlert;
 
     // Start is called before the first frame update
     private void Start()
@@ -70,6 +71,7 @@ public class BossAI : MonoBehaviour
             {
                 MoveCharacter(movement);
                 BossHP.SetActive(true);
+                AudioSource.PlayClipAtPoint(BossAlert, Camera.main.transform.position);
             }
             if(isInAttackRange)
             {

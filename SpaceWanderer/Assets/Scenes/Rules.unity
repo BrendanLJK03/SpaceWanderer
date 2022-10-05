@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.416, y: 18.5085}
-  m_SizeDelta: {x: 239.0179, y: 233.1324}
+  m_AnchoredPosition: {x: -343.6783, y: 34.465664}
+  m_SizeDelta: {x: 347.457, y: 354.5869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &745773097
 MonoBehaviour:
@@ -307,8 +307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1807, y: -4.1749}
-  m_SizeDelta: {x: 680.2109, y: 387.4763}
+  m_AnchoredPosition: {x: -23, y: -0.035}
+  m_SizeDelta: {x: 988.813, y: 589.339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &884406290
 MonoBehaviour:
@@ -448,8 +448,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121.16196, y: 32.80848}
-  m_SizeDelta: {x: 509.3837, y: 275.7404}
+  m_AnchoredPosition: {x: 149.9614, y: 56.215492}
+  m_SizeDelta: {x: 740.484, y: 419.3922}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052624803
 MonoBehaviour:
@@ -655,8 +655,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 239.97253, y: -149.54518}
-  m_SizeDelta: {x: 175.1914, y: 76.4948}
+  m_AnchoredPosition: {x: 322.67468, y: -221.13855}
+  m_SizeDelta: {x: 254.6733, y: 116.3461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237887340
 MonoBehaviour:
@@ -925,8 +925,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 109.928925, y: 77.76108}
-  m_SizeDelta: {x: 400.1315, y: 146.6035}
+  m_AnchoredPosition: {x: 133.63211, y: 124.586975}
+  m_SizeDelta: {x: 581.6656, y: 222.9792}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520922051
 MonoBehaviour:
@@ -952,7 +952,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 13
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
