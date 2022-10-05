@@ -121,6 +121,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
+  DoorOpen: {fileID: 8300000, guid: 15cc351d6a50ed3428d0ece8eb751e35, type: 3}
 --- !u!58 &5903913686454796183
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class Door : MonoBehaviour
     private bool isInRange;
     Animator anim;
     public LayerMask whatIsPlayer;
+    public AudioClip DoorOpen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class Door : MonoBehaviour
         if(other.tag == "Player")
         {
             isInRange = true;
+            AudioSource.PlayClipAtPoint(DoorOpen, Camera.main.transform.position);
         }
     }
 

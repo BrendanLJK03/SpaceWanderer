@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip projectileSound;
 
     public Image HPBar;
+    public GameController GameController;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +49,11 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.C))
         {
             Launch();   
+        }
+
+        if(currentHealth <= 0)
+        {
+            GameController.GameOver();
         }
     }
 

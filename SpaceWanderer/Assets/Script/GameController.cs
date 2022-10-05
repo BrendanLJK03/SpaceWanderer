@@ -8,7 +8,11 @@ public class GameController : MonoBehaviour
     public int meteorite;
     public bool destroyedAll = false;
     GameController gc;
-    public Text metoerLeftText;
+    public Text meteorLeftText;
+
+    public GameOverScene GameOverScene;
+    public GameCompleteScene GameCompleteScene;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -20,12 +24,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        BlockNPC n = gameObject.GetComponent<BlockNPC>();
+        BlockNPC n = GetComponent<BlockNPC>();
 
         if(meteorite <= 0)
         {
             destroyedAll = true;
-            n. MissionComplete();
+            Destroy (GameObject.FindWithTag("BlockNPC"));
         }
         else
         {
@@ -35,6 +39,23 @@ public class GameController : MonoBehaviour
 
     public void UpdateMeteorLeftText()
     {
-        metoerLeftText.text = $"Meteor Left : {meteorite}";
+        meteorLeftText.text = $"Meteor Left : {meteorite}";
+
+        if(meteorite <= 0)
+        {
+            meteorLeftText.text = $"All meteor destroyed";
+        }
     }
+
+    public void GameOver()
+    {
+        GameOverScene.Setup();
+    }
+
+    public void GameComplete()
+    {
+        GameCompleteScene.MissionComplete();
+    }
+
+    
 }

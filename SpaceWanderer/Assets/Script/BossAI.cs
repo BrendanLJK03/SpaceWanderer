@@ -22,6 +22,7 @@ public class BossAI : MonoBehaviour
     private bool isInAttackRange;
 
     public AudioClip EnemyFreezeSound;
+    public AudioClip EnemyDieSound;
 
     [SerializeField] float health, maxHealth = 10f;
     public int damage;
@@ -31,6 +32,7 @@ public class BossAI : MonoBehaviour
 
     public HPBar healthBar;
     public GameObject BossHP;
+    public GameController GameController;
 
     // Start is called before the first frame update
     private void Start()
@@ -110,7 +112,9 @@ public class BossAI : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             isDead = true;
+            AudioSource.PlayClipAtPoint(EnemyDieSound, Camera.main.transform.position);
             rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+            GameController.GameComplete();
         }
         
     }

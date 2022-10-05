@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BlockNPC : MonoBehaviour
 {
+
+    
+    public GameObject NotAllowed;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,11 +16,22 @@ public class BlockNPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void MissionComplete()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
+        if(other.tag == "Player")
+        {
+            NotAllowed.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.tag == "Player")
+        {
+            NotAllowed.SetActive(false);
+        }
     }
 }

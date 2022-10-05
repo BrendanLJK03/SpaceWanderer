@@ -29,8 +29,14 @@ public class Meteor : MonoBehaviour
                 gc.meteorite--;
                 Destroy(gameObject);
                 inteButton.SetActive(false);
+                gc.UpdateMeteorLeftText();
                 
             }
+        }
+
+        if(gc.meteorite == null)
+        {
+            Debug.Log("All Gone");
         }
     }
 
